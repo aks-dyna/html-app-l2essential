@@ -26,7 +26,7 @@ app.get("/", (req, res) => {
   });
 
   app.get("/.well-known/apple-developer-merchantid-domain-association", (req, res) => {
-    res.sendFile(__dirname + "/.well-known/apple-developer-merchantid-domain-association.html");
+    res.sendFile(__dirname + "/.well-known/apple-developer-merchantid-domain-association");
   });
 
 // serve static files
